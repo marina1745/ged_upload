@@ -1,0 +1,19 @@
+(*)	[...] compute the texture values at the texture coordinates (1/2,1/2) and (4/8-1/4*1/8,4/8-1/4*1/8). (1P)
+
+Solution: 
+=========
+Value at (1/2,1/2): 1/2
+Value at (4/8-1/4*1/8,4/8-1/4*1/8): 3/8
+
+(1P if both results correct, 0P otherwise)
+
+(*)	[...] Use alpha-blending to compute the color. 
+
+Solution:
+=========
+R = 5/16 = 0.3125
+G = 0
+B = 0
+(A = 1, not necessary)
+
+(1P if R,G,B are correct, and A is correct or not specified at all, 0P otherwise)

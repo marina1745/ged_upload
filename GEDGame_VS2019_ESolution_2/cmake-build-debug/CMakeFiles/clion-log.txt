@@ -1,0 +1,10 @@
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" "C:\Users\robin\Documents\Uni\2. Semester\ECG\Praktikum\ged\external\GEDGame_VS2019_ESolution_2"
+x64 architecture in use
+CMake Error at projects/Game/CMakeLists.txt:292 (target_link_libraries):
+  Target "texconv" of type EXECUTABLE may not be linked into another target.
+  One may link only to INTERFACE, OBJECT, STATIC or SHARED libraries, or to
+  executables with the ENABLE_EXPORTS property set.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/robin/Documents/Uni/2. Semester/ECG/Praktikum/ged/external/GEDGame_VS2019_ESolution_2/cmake-build-debug/CMakeFiles/CMakeOutput.log".
